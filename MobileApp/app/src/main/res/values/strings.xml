@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Birds App Recognition</string>
+    <string name="Open_CV_problem">Nie można wczytać biblioteki OpenCV</string>
+    <string name="not_have_permission">Brak pozwolenia, zmień ustawienia aplikacji</string>
+    <string name="download">Pobierz</string>
+    <string name="files">Pliki</string>
+    <string name="info_about_model">Ups, Wygląda na to, że nie masz jeszcze mojego modelu Yolo. Pobierz go teraz! Jeśli już to zrobiłeś pomóż mi go znaleźć!</string>
+    <string name="choose_model">Wybierz model (.weights)</string>
+    <string name="some_path">/model.weights</string>
+    <string name="choose_cfg_file">Wybierz plikkonfiguracyjny (.cfg)</string>
+    <string name="info_about_creating_model">Jeśli masz już pobrany model oraz plik konfiguracyjny sieci wybierz je poniżej i kliknij przycisk OK.</string>
+    <string name="some_cfg_path">model.cfg</string>
+    <string name="error">Coś poszło nie tak. Sprawdź czy wybrałeś odpowiednie pliki.</string>
+    <string name="path_error">Podaj poprawne ścieżki!</string>
+    <string name="preferences">MyPreferences</string>
+</resources>

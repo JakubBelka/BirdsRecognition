@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModelSettingActivity"
+    android:background="@drawable/tlolux"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="21sp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info_about_creating_model"/>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="@string/choose_model"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/model_path"
+            android:textSize="12sp"
+            android:text="@string/some_path"/>
+        <Button
+            android:layout_width="50dp"
+            android:id="@+id/model_button"
+            android:layout_height="wrap_content"
+            android:text="..."
+            android:background="@drawable/rounded_button"
+            />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="@string/choose_cfg_file"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cfg_path"
+            android:textSize="12sp"
+            android:text="@string/some_cfg_path"/>
+        <Button
+            android:layout_width="50dp"
+            android:id="@+id/cfg_button"
+            android:layout_height="wrap_content"
+            android:text="..."
+            android:background="@drawable/rounded_button"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_margin="30dp"
+            android:id="@+id/return_button"
+            android:layout_height="wrap_content"
+            android:text="Powrót"
+            android:background="@drawable/rounded_button"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_margin="30dp"
+            android:id="@+id/ok_button"
+            android:layout_height="wrap_content"
+            android:text="OK!"
+            android:background="@drawable/rounded_button"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
